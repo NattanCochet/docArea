@@ -1,0 +1,64 @@
+site_name: Documentation Area
+
+theme:
+  name: material
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    # - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
+    # - search.share
+    # - toc.follow
+    # - toc.integrate
+
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/moon-waxing-crescent
+        name: Switch to dark mode
+      primary: deep purple
+      accent: blue
+    - scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+      primary: deep purple
+      accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
+
+copyright: Made by &copypAreage, 2024
+
+extra_css:
+  - styles/extra.css
+
+extra:
+  generator: false

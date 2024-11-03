@@ -1,0 +1,39 @@
+# Format Environement
+
+```env
+VERSION_POSTGRES=16
+POSTGRES_USER=<userDatabase>
+POSTGRES_PASSWORD=<passwordDatabase>
+POSTGRES_DB=area_db
+PORTS_DB=5432
+PORTS_SERVER=8080
+PORTS_WEB=8081
+JWT_SECRET_KEY=<toGenerate>
+JWT_EXPIRATION_MS=7200000
+
+ADMIN_NAME=<adminName>
+ADMIN_SURNAME=<adminSurname>
+ADMIN_EMAIL=<adminEmail>
+ADMIN_DATE=-<adminDate>
+ADMIN_PHONE_NUMBER=<adminPhoneNumber>
+ADMIN_GENDER=<adminGender>
+ADMIN_PASSWORD=<adminPassword>
+
+DISCORD_APPLICATION_ID=<Apllication Id>
+DISCORD_API_KEY=<Clé api>
+DISCORD_BOT_TOKEN=<token bot>
+DISCORD_CLIENT_ID=<client id>
+DISCORD_CLIENT_SECRET=<client secret>
+
+GOOGLE_CLIENT_ID=<ID Client Google>
+
+SPOTIFY_CLIENT_ID=<ID Client Spotify>
+SPOTIFY_CLIENT_SECRET=<Client Secret Spotify>
+
+OSU_CLIENT_SECRET=<Client Secret OSU>
+
+RIOT_API_KEY=<Riot API key>
+
+THREADS_APPLICATION_ID = <Threads App ID>
+THREADS_SECRET_KEY = <Threads Secret Key>
+```
