@@ -7,7 +7,7 @@ AREA est une application web qui permet aux utilisateurs de créer des automatis
 ### Services Intégrés
 - Discord : Suivez les messages et les activités des serveurs.
 - Spotify : Réagissez aux likes et à l'activité de votre musique.
-- Thread : Connectez plusieurs comptes pour gérer vos messages.
+- Thread : Connectez vous à votre compte pour gérer les posts et envoyer des messages.
 - Osu : Suivez vos performances et vos progrès.
 - Riot : Intégrez vos jeux et suivez vos statistiques.
 - Gmail : Gérez plusieurs comptes et automatisez vos réponses.
