@@ -13,7 +13,7 @@ Ici on peut se créer un compte
 ![](assets/signup.png)
 
 
-## Acceuil
+## Accueil
 
 Ici vous pourrez avoir vos données d'actions et de services
 
