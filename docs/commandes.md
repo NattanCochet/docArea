@@ -17,8 +17,10 @@ sudo docker-compose build
 ```bash
 sudo docker-compose up
 ```
-- **Delete Docker Container (Racine repo):** sudo docker-compose down
-
+- **Delete Docker Container (Racine repo):**
+```bash
+sudo docker-compose down
+```
 - **Refresh all Backend (Database and Server)**:
 ```bash
 sudo docker-compose down --volumes --rmi all && sudo docker-compose up --build
